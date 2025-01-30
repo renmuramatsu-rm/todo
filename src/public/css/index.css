@@ -1,0 +1,15 @@
+.button {
+    background-color: #000;
+    color: #FFF;
+
+}
+
+.button__update {
+    background-color: blue;
+    color: #FFF;
+}
+
+.button__delete {
+    background-color: red;
+    color: #FFF;
+}
