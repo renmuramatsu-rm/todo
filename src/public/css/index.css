@@ -13,3 +13,16 @@
     background-color: red;
     color: #FFF;
 }
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 30px;
+    width: 200px;
+}
+
+.form__group-content {
+    padding: 15px 45px;
+    width: 50px;
+}

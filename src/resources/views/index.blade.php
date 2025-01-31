@@ -7,36 +7,24 @@
 @endsection
 
 @section('content')
-<form class="form">
-    <div class=form__group>
-        <div class="form__group-content">
-            <input type="text" name="title" value="" />
-        </div>
-        <button class="button">
-            <input type="submit" value="作成" />
-        </button>
+<div class="todo__alert">
+    <div class="todo__alert--succsess">
+        Todoを作成しました
     </div>
-    <div class="form__group-title">
-        Todo
-        <div class="form__group-list">
-            <input type="text" name="test" value="test" />
-        </div>
-        <button class="button__update">
-            <input type="submit" value="更新" />
-        </button>
-        <button class="button__delete">
-            <input type="submit" value="削除" />
-        </button>
-        <div class="form__group-list">
-            <input type="text" name="test2" value="test2" />
-        </div>
-        <button class="button__update">
-            <input type="submit" value="更新" />
-        </button>
-        <button class="button__delete">
-            <input type="submit" value="削除" />
-        </button>
-    </div>
-</form>
+</div>
 
+<div class="todo__content">
+    <form class="form">
+        <div class=form__group>
+            <div class="form__group-content">
+                <input type="text" name="title" value="" />
+            </div>
+            <button class="button" type="submit" value="作成"></button>
+        </div>
+    </form>
+    <div class="form__group-list">
+        <table class="todo__table>
+            <tr class="todo__table-inner>
+            <th class="todo__table-header>Todo</th>
+    </div>
 @endsection
