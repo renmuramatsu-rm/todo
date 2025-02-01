@@ -1,28 +1,166 @@
+.todo__alert {
+    background-color: #badbcc;
+    color: #0f5132;
+}
+
+.todo__alert--success {
+    padding: 10px 20px;
+}
+
+.todo__alert--danger {
+    padding: 10px 0;
+    border-color: #f5c2c7;
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.todo__alert--danger ul {
+    margin: 0;
+}
+
 .button {
     background-color: #000;
     color: #FFF;
 
 }
 
-.button__update {
+.update-form__button-submit {
     background-color: blue;
     color: #FFF;
 }
 
-.button__delete {
+.delete-form__button-submit {
     background-color: red;
     color: #FFF;
 }
 
-.form__group {
-    display: flex;
-    justify-content: space-between;
+.todo__content {
+    background-color: yellow;
+    width: 90%;
+    padding: 20px 20px;
     margin: 0 auto;
-    padding: 30px 30px;
-    width: 200px;
+    max-width: 1230px;
+
 }
 
-.form__group-content {
-    padding: 15px 45px;
+.create-form {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create-form__item {
+    background-color: #badbcc;
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.create-form__item-input {
+    height: 30px;
+    margin: 10px 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.create-form__button {
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.create-form__button-submit {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.todo-table {
+    background-color: bisque;
+    width: 90%;
+    padding: 30px 30px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.todo-table__inner {
+    background-color: #badbcc;
+    width: 100%;
+}
+
+.todo__table-inner {
+    padding: 30px 30px;
+}
+
+.todo-table__row {
+    border: 1px solid #e0e0e0;
+    background-color: #842029;
+    padding: 10px 10px;
+    width: 100%;
+
+}
+
+.update-form {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f5132;
+    height: 30px;
+
+}
+
+.update-form__item {
+    border: none;
+    width: 80%;
+    background-color: #badbcc;
+    text-align: left;
+    line-height: 50%;
+}
+
+.update-form__item-input {
+    height: 100%;
+    border: none;
+    width: 90%;
+    outline: none;
+}
+
+.update-form__button {
     width: 50px;
+    background-color: #ddd;
+    text-align: center;
+
+}
+
+.update-form__button-submit {
+    border: none;
+    width: 80%;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.delete-form {
+    text-align: center;
+    background-color: #f5c2c7;
+    margin: 0 auto;
+}
+
+.delete-form__button {
+    width: 50px;
+    background-color: #e0e0e0;
+}
+
+.delete-form__button-submit {
+    border: none;
+    width: 80%;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
 }
