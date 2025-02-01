@@ -17,9 +17,10 @@ class CreateTodosTable extends Migration
             $table->id();
             $table->string('content', 20);
             $table->timestamp('created_at');
-            $table->timestamp('dereted_at');
+            $table->timestamp('deleted_at');
         });
     }
+    // テーブルのカラムの作成
 
     /**
      * Reverse the migrations.

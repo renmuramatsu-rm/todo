@@ -6,12 +6,21 @@
 
 @endsection
 
+
 @section('content')
 <div class="todo__alert">
     <div class="todo__alert--success">
-        Todoを作成しました
+        {{ session('message') }}
     </div>
+    <!-- コントローラーのWITHメソッドでセクションに保存された変数を取り出す -->
+     @error('content')
+    <div class="todo__alert--false">
+        {{ ('message') }}
+    </div>
+    @enderror
 </div>
+
+
 
 <div class="todo__content">
     <form class="create-form" action="/todos" method="post">
